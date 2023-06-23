@@ -1,2 +1,6 @@
-# bioSite
-Repository to host bioSite files and coding 
+<h1>CSD 340 Web Development with HTML and CSS</h1>
+<h2>Contributors</h2>
+<ul>
+  <li>Jenny Rosero</li>
+  <li>Matthew Longley</li>
+</ul>
