@@ -1,0 +1,82 @@
+head, body {
+	font-family: "Times New Roman", Times, serif;
+}
+
+header {
+	background: #310980;
+	color: #FFF08D;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar{
+	color: #FFF08D;
+	background: #310980;
+	overflow: hidden;
+}
+
+#navbar a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#content-container {
+	background-image: url('/Users/jennyrosero/Desktop/csd/bioSite/Images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-image img{
+	width: 800px;
+	height: 600px;
+	object-fit: contain;
+}
+
+footer {
+	background: #310980;
+	color: #FFF08D;
+}
+
+/*About and hobbies page*/
+
+#about-content-container {
+	background: #D4BEFF;
+
+}
+
+h2 {
+	color: #FFF08D;
+}
+
+p {
+	color: #3A414A;
+}
+
+.content-images, .abount-content-images {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-images img, .abount-content-images img{
+	width: 200px;
+	height: auto;
+	margin-right: 50px;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: #FFF08D;
+}
+
+
