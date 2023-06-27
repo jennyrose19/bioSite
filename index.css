@@ -1,5 +1,7 @@
-head, body {
+head, body, html {
 	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+	padding: 0;
 }
 
 header {
@@ -9,10 +11,16 @@ header {
 	text-align: center;
 }
 
+h1, h2, h3 {
+	font-weight: 400;
+}
+
 #navbar{
 	color: #FFF08D;
 	background: #310980;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 
 #navbar a {
@@ -20,10 +28,44 @@ header {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	color: #FFF08D;
 }
 
+#navbar a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background: #310980;
+	color: #FFF08D;
+	position: static;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+
+footer p {
+	font-weight: 400;
+	float: right;
+	padding: 20px;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFF08D;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+/* home page */
 #content-container {
-	background-image: url('/Users/jennyrosero/Desktop/csd/bioSite/Images/background.jpg');
+	background-image: url('Images/background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -37,46 +79,67 @@ header {
 
 .home-image img{
 	width: 800px;
-	height: 600px;
+	height: 800px;
 	object-fit: contain;
-}
-
-footer {
-	background: #310980;
-	color: #FFF08D;
+	margin: 5% 50% 100px;
 }
 
 /*About and hobbies page*/
 
 #about-content-container {
 	background: #D4BEFF;
+	margin-bottom: 0;
 
 }
 
 h2 {
 	color: #FFF08D;
+	font-size: 30px;
 }
 
 p {
 	color: #3A414A;
 }
 
+/* Image styling */
+
 .content-images, .abount-content-images {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-right: 20px;
 }
 
 .content-images img, .abount-content-images img{
 	width: 200px;
 	height: auto;
-	margin-right: 50px;
+	margin-bottom: 10px;
 
 }
 
-footer a{
-	text-decoration: none;
-	color: #FFF08D;
+/* Paragraph styling */
+
+#about , #hobbies{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 40px;
+	font-size: 20px;
+	padding-bottom: 50px;
+	margin-bottom: 0;
 }
 
+.about-section, .hobbies-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
 
+.about-section p, .hobbies-section p {
+	width: 50%;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
