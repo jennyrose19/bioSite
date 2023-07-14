@@ -132,7 +132,7 @@ p {
 
 /* Paragraph styling */
 
-#about , #hobbies{
+#about, #hobbies{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
